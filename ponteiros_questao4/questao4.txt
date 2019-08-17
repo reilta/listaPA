@@ -1,0 +1,12 @@
+i e j são variáveis inteiras 
+p e q ponteiros para int
+quais das seguintes expressões de atribuição são ilegais?
+
+p = i; expressão ilegal, pois p é uma variável ponteiro que guarda endereços e i é uma variável inteira.
+q = &j; 
+p = &*&i; 
+i = (*&)j; expressão ilegal por causa do uso dos parênteses 
+i = *&j; 
+i = *&*&j; 
+q = *p; expressão ilegal, pois q não estaria rebendo um valor de endereço, e sim o valor da variável que p aponta
+i = (*p)++ + *q; 
