@@ -1,0 +1,7 @@
+Considerando a declaração int mat[4], *p, x;
+quais das seguintes expressões são válidas? Justifique.
+
+p = mat + 1; //válida pois o resultado é o endereço da posição 2 do vetor mat
+p = mat++; //inválida 
+p = ++mat; //inválida
+x = (*mat)++; //válida pois o resultado é o valor que está na primeira posição do vetor mat
